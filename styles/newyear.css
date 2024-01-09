@@ -141,14 +141,44 @@ main {
   height: 450px;
   flex-shrink: 0;
 }
+.vacation-pro{
+  align-items: center;
+  margin-left: 400px;
+  font-size: 30px;
+  margin-top: 50px;
+}
+.vacation{
+  color: tomato;
+}
+.talk{
+  text-align: center;
+  margin-right: 400px;
+  margin-bottom: 50px;
+}
+.fifty-fifty{
+  display: flex;
+  background-color: brown;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 30 30 30;
+ 
 
-.img-container2{
+}
+.box{
+  width: 100px;
+  position: relative;
+}
+.girls{
+  height: 50px;
+  width: 100px;
+  position: relative;
+}
+
+.image-container-new{
   display: flex;
   width: 424px;
   height: 450px;
-  justify-content: space-between;
-  max-width: 600px;
- margin: auto;
+  flex-shrink: 0;;
 } 
 .newsletter{
   background-color: antiquewhite;
@@ -157,7 +187,8 @@ main {
 .image-container{
   align-items: center;
   justify-content: center;
-}
+  margin-left: 400px;
+  }
 .icon2 , .icon3{
   text-align: center;
 }
